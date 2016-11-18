@@ -3,11 +3,8 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 import java.util.HashMap;
 
-/**
- * @author conzty01
- */
 public class Main {
-
+    
     public static void main(String[] args) {
         MyStack<Fraction> stk = new MyStack();
         HashMap<String, Fraction> memory = new HashMap<String, Fraction>();
@@ -111,8 +108,6 @@ public class Main {
                             String sadlgkj = "sld;kf";
                             break;
                     }
-
-                    
                 }
                 Fraction res = stk.pop();
                 if (stk.isEmpty()) {

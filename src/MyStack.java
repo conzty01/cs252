@@ -25,8 +25,17 @@ public class MyStack<T> {
     public boolean isEmpty() {
         return (lst.size() == 0);
     }
-    public int StackLen() {
+    public int stackLen() {
         return lst.size();
+    }
+    @Override
+    public String toString() {
+        String str = "";
+        
+        for(int i = 0; i >= lst.size(); i++) {
+            str += lst.get(i).toString() + "\n";
+        }
+        return str;
     }
 
 }
